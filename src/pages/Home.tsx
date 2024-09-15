@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Presentation from "../components/Presentation";
 
 const backgrounds = [
-  "../public/assets/bgweb3.jpg",
-  "../public/assets/bgai.jpg",
-  "../public/assets/bgweb3.jpg",
+  "/assets/bgweb3.jpg",
+  "/assets/bgai.jpg",
+  "/assets/bgweb3.jpg",
 ];
 
 type RoleSliderProps = {
@@ -78,25 +78,27 @@ const RoleSlider = ({ onChange }: RoleSliderProps) => {
 
 export default () => {
   const [currentPage, setCurrentPage] = useState(0);
-  // const ref: MutableRefObject<HTMLDivElement | null> = useRef(null);
+  const ref: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
-  // useEffect(() => {
-  //   if (ref.current == null) {
-  //     return;
-  //   }
+  const changeBackground = (idx: number) => {
+    if (ref.current == null) return;
 
-  //   ref.current.style.backgroundColor = backgrounds[currentPage];
-  // }, [currentPage, ref]);
+    ref.current.style.backgroundImage = `url("/assets/bgai.jpg")`;
+  };
 
   return (
     <div
-      // ref={ref}
-      className={`h-screen bg-[url(../public/assets/bgweb3.jpg)] bg-center bg-cover font-display`}
+      ref={ref}
+      style={{backgroundImage: `url("/assets/bgweb3.jpg")`}}
+      className={`h-screen bg-center bg-cover font-display`}
     >
       <div className="z-10 absolute h-screen inset-0 bg-black opacity-75"></div>
       <nav className="z-20 relative p-8">
         <div className="flex justify-end">
-          <div className="w-fit flex flex-row justify-center hover:opacity-75">
+          <div
+            onClick={() => changeBackground(1)}
+            className="w-fit flex flex-row justify-center hover:opacity-75"
+          >
             <button className="border border-[#8EA7CA] px-4 py-2 text-[#8EA7CA]">
               I also work with AI
             </button>
