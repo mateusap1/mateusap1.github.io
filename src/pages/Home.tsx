@@ -83,13 +83,13 @@ export default () => {
   const changeBackground = (idx: number) => {
     if (ref.current == null) return;
 
-    ref.current.style.backgroundImage = `url("/assets/bgai.jpg")`;
+    ref.current.style.backgroundImage = `url("${backgrounds[idx]}")`;
   };
 
   return (
     <div
       ref={ref}
-      style={{backgroundImage: `url("/assets/bgweb3.jpg")`}}
+      style={{ backgroundImage: `url("${backgrounds[0]}")` }}
       className={`h-screen bg-center bg-cover font-display`}
     >
       <div className="z-10 absolute h-screen inset-0 bg-black opacity-75"></div>
@@ -111,7 +111,7 @@ export default () => {
       <div className="h-full flex p-8">
         <div className="z-20 relative h-full w-full flex px-48 py-24">
           <div className="w-full flex flex-col gap-8 text-slate-200">
-            <RoleSlider onChange={(idx) => setCurrentPage(idx)} />
+            <RoleSlider onChange={(idx) => changeBackground(idx)} />
           </div>
         </div>
       </div>
