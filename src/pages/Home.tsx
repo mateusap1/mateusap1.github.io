@@ -90,7 +90,7 @@ export default () => {
     <div
       ref={ref}
       style={{ backgroundImage: `url("${backgrounds[0]}")` }}
-      className={`h-screen bg-center bg-cover font-display`}
+      className={`h-screen bg-center bg-cover font-display transition-all duration-1000 ease-in-out`}
     >
       <div className="z-10 absolute h-screen inset-0 bg-black opacity-75"></div>
       <nav className="z-20 relative p-8">
