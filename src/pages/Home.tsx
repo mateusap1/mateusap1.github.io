@@ -93,7 +93,7 @@ export default () => {
   const viewMyWork = (idx: number) => {
     if (web3Ref.current == null) return;
 
-    web3Ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    web3Ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   return (
@@ -131,9 +131,49 @@ export default () => {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-3 p-32">
-        <div className="flex flex-col h-full items-center justify-center gap-8 col-span-1 text-white p-8">
-          <span ref={web3Ref} className="font-title font-semibold text-4xl">
+      <div className="w-full grid grid-cols-3 px-32 py-16">
+        <div ref={web3Ref} className="flex flex-col text-start h-full items-center justify-center gap-8 col-span-1 text-white p-8">
+          <span className="font-title font-semibold text-4xl">
+            I developed dApps and smart contracts.
+          </span>
+          <p className="opacity-60">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-end gap-4 col-span-2 col-start-2 text-white p-8">
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+        </div>
+      </div>
+
+      <div className="w-full grid grid-cols-3 px-32 py-16">
+        <div className="flex flex-wrap justify-start gap-4 col-span-2 text-white p-8">
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+        </div>
+        <div ref={web3Ref} className="flex flex-col text-end h-full items-center justify-center gap-8 col-span-1 col-start-3 text-white p-8">
+          <span className="font-title font-semibold text-4xl">
+            I developed web3 projects.
+          </span>
+          <p className="opacity-60">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div className="w-full grid grid-cols-3 px-32 py-16">
+        <div ref={web3Ref} className="flex flex-col h-full items-center justify-center gap-8 col-span-1 text-white p-8">
+          <span className="font-title font-semibold text-4xl">
             I developed web3 projects.
           </span>
           <p className="opacity-60">
