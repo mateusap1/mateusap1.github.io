@@ -7,7 +7,7 @@ type PresentationProps = {
 export default ({ title, description, onViewMyWork }: PresentationProps) => {
   return (
     <div>
-      <span className="text-lg tracking-widest text-[#8EA7CA]">
+      <span className="text-lg tracking-widest text-offblue">
         Hi, my name is
       </span>
       <div className="w-full flex flex-col gap-8">
@@ -15,10 +15,10 @@ export default ({ title, description, onViewMyWork }: PresentationProps) => {
           <span className="">Mateus Santos.</span>
           <span className="opacity-60">{title}</span>
         </div>
-        <div className="w-1/2 flex flex-col text-xl">{description}</div>
+        <div className="w-1/2 flex flex-col text-xl text-gray-500">{description}</div>
         <button
           onClick={onViewMyWork}
-          className="w-fit px-4 py-2 border border-[#8EA7CA] text-[#8EA7CA] hover:opacity-75"
+          className="w-fit px-4 py-2 border border-offblue text-offblue hover:opacity-75"
         >
           View my work
         </button>

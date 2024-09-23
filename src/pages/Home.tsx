@@ -1,4 +1,10 @@
-import { useState, useEffect, useRef, MutableRefObject } from "react";
+import {
+  useState,
+  useEffect,
+  useRef,
+  MutableRefObject,
+  ReactNode,
+} from "react";
 
 import Slider from "react-slick";
 
@@ -13,6 +19,16 @@ const backgrounds = [
   "/assets/bgai.jpg",
   "/assets/bgweb3.jpg",
 ];
+
+type BProps = {
+  children: ReactNode;
+};
+
+const B = ({ children }: BProps) => (
+  <span className="text-offblue font-semibold underline decoration-4">
+    {children}
+  </span>
+);
 
 type RoleSliderProps = {
   onChange: (idx: number) => void;
@@ -38,25 +54,28 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
       <Presentation
         title="I create web3 applications."
         description={
-          <span className="text-xl text-gray-600">
-            I'm a <span className="text-[#8EA7CA]">blockchain engineer</span>{" "}
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+          <span className="">
+            I'm a <B>blockchain engineer</B> with over 3 years of work
+            experience in the web3 space. While at MSVN, I developed over 20
+            projects, including custom dApps, smart contracts,{" "}
+            NFT sites, a voting platform and more . I can easily
+            integrate browser wallets, develop websites, generate NFTs and
+            design smart-contracts.
           </span>
         }
         onViewMyWork={() => onViewMyWork(0)}
       />
       <Presentation
-        title="I work with AI."
+        title="I work with data & AI."
         description={
-          <span className="text-xl text-gray-600">
-            I'm a <span className="text-[#8EA7CA]">blockchain engineer</span>{" "}
+          <span>
+            I'm a <span className="text-offblue">blockchain engineer</span>{" "}
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            ea commodo consequat. My focus is high-quality mantainable code
+            while still being able to deliver things quickly by making use of
+            proper sofware engineering practices.
           </span>
         }
         onViewMyWork={() => onViewMyWork(1)}
@@ -64,8 +83,8 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
       <Presentation
         title="I create web3 applications."
         description={
-          <span className="text-xl text-gray-600">
-            I'm a <span className="text-[#8EA7CA]">blockchain engineer</span>{" "}
+          <span>
+            I'm a <span className="text-offblue">blockchain engineer</span>{" "}
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -93,7 +112,7 @@ export default () => {
   const viewMyWork = (idx: number) => {
     if (web3Ref.current == null) return;
 
-    web3Ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    web3Ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
   };
 
   return (
@@ -110,10 +129,10 @@ export default () => {
               onClick={() => changeBackground(1)}
               className="w-fit flex flex-row justify-center hover:opacity-75"
             >
-              <button className="border border-[#8EA7CA] px-4 py-2 text-[#8EA7CA]">
+              <button className="border border-offblue px-4 py-2 text-offblue">
                 I also work with AI
               </button>
-              <button className="border border-[#8EA7CA] bg-[#8EA7CA] px-2 py-2">
+              <button className="border border-offblue bg-offblue px-2 py-2">
                 <img src="assets/doublearrow.svg" />
               </button>
             </div>
@@ -132,7 +151,10 @@ export default () => {
       </div>
 
       <div className="w-full grid grid-cols-3 px-32 py-16">
-        <div ref={web3Ref} className="flex flex-col text-start h-full items-center justify-center gap-8 col-span-1 text-white p-8">
+        <div
+          ref={web3Ref}
+          className="flex flex-col text-start h-full items-center justify-center gap-8 col-span-1 text-white p-8"
+        >
           <span className="font-title font-semibold text-4xl">
             I developed dApps and smart contracts.
           </span>
@@ -158,7 +180,10 @@ export default () => {
           <ProjectItem />
           <ProjectItem />
         </div>
-        <div ref={web3Ref} className="flex flex-col text-end h-full items-center justify-center gap-8 col-span-1 col-start-3 text-white p-8">
+        <div
+          ref={web3Ref}
+          className="flex flex-col text-end h-full items-center justify-center gap-8 col-span-1 col-start-3 text-white p-8"
+        >
           <span className="font-title font-semibold text-4xl">
             I developed web3 projects.
           </span>
@@ -172,7 +197,10 @@ export default () => {
       </div>
 
       <div className="w-full grid grid-cols-3 px-32 py-16">
-        <div ref={web3Ref} className="flex flex-col h-full items-center justify-center gap-8 col-span-1 text-white p-8">
+        <div
+          ref={web3Ref}
+          className="flex flex-col h-full items-center justify-center gap-8 col-span-1 text-white p-8"
+        >
           <span className="font-title font-semibold text-4xl">
             I developed web3 projects.
           </span>

@@ -9,6 +9,9 @@ module.exports = {
         'display': ['Source Code Pro'],
         'title': ['Roboto Slab']
       },
+      colors: {
+        'offblue': '#8EA7CA',
+      }
     },
   },
   plugins: [],
