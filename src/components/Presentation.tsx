@@ -6,7 +6,7 @@ type PresentationProps = {
 
 export default ({ title, description, onViewMyWork }: PresentationProps) => {
   return (
-    <div>
+    <div className="py-8">
       <span className="text-lg tracking-widest text-offblue">
         Hi, my name is
       </span>

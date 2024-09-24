@@ -46,8 +46,13 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    draggable: true,
     customPaging: (i: number) => (
-      <div className={`${i === currentPage && "bg-offblue"} rounded-lg flex items-center justify-center hover:opacity-75 hover:cursor-pointer`}>
+      <div
+        className={`${
+          i === currentPage && "bg-offblue"
+        } rounded-lg flex items-center justify-center hover:opacity-75 hover:cursor-pointer`}
+      >
         <img
           src={
             i === 0
@@ -79,8 +84,7 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
             experience in the web3 space. While at MSVN, I developed over 20
             projects, including custom dApps, smart contracts, NFT sites, a
             voting platform and more. I can quickly integrate browser wallets,
-            develop websites, generate NFTs and design smart-contracts. Don't
-            believe me?
+            develop websites, generate NFTs and design smart-contracts.
           </span>
         }
         onViewMyWork={() => onViewMyWork(0)}
@@ -91,10 +95,8 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
           <span>
             I have worked in over 5 data related projects, including
             web-scraping, web-crawling, data analysis, cleaning and parsing. I
-            have also worked in two AI projects at university and 1 as a
-            personal project. I have good knowledge of Machine Learning
-            algorithms, Neural Networks, State Of The Art Computer Vision
-            techniques and more. Don't believe me?
+            have good knowledge of Machine Learning algorithms, Neural Networks,
+            State Of The Art Computer Vision techniques and more.
           </span>
         }
         onViewMyWork={() => onViewMyWork(1)}
@@ -106,10 +108,7 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
             I am a <B>software engineer</B> and <B>web developer</B>. While at
             MSVN, I developed over 20 sites with focus on high-quality
             mantainable code by making use of proper sofware engineering
-            practices. As a computer science undergraduate, I am capable of
-            handling highly technical programming tasks, such as functional
-            programing techniques, maximum efficiency programs and
-            domain-specific tasks. Don't believe me?
+            practices.
           </span>
         }
         onViewMyWork={() => onViewMyWork(2)}
@@ -152,7 +151,7 @@ export default () => {
         style={{ backgroundImage: `url("${backgrounds[0]}")` }}
         className={`h-screen bg-center bg-cover transition-all duration-1000 ease-in-out`}
       >
-        <div className="z-10 absolute h-screen inset-0 bg-black opacity-75"></div>
+        <div className="z-10 absolute h-screen inset-0 bg-black opacity-60"></div>
         <nav className="z-20 relative p-8">
           <div className="flex justify-end">
             <div
@@ -169,7 +168,7 @@ export default () => {
           </div>
         </nav>
         <div className="h-full flex p-8">
-          <div className="z-20 relative h-full w-full flex px-48 py-12">
+          <div className="z-20 relative h-full w-full flex px-48">
             <div className="w-full flex flex-col gap-8 text-slate-200">
               <RoleSlider
                 onViewMyWork={viewMyWork}
