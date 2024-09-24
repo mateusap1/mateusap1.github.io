@@ -38,7 +38,7 @@ type RoleSliderProps = {
 const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
   var settings = {
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -55,12 +55,12 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
         title="I create web3 applications."
         description={
           <span className="">
-            I'm a <B>blockchain engineer</B> with over 3 years of work
+            I am a <B>blockchain engineer</B> with over 3 years of work
             experience in the web3 space. While at MSVN, I developed over 20
-            projects, including custom dApps, smart contracts,{" "}
-            NFT sites, a voting platform and more . I can easily
-            integrate browser wallets, develop websites, generate NFTs and
-            design smart-contracts.
+            projects, including custom dApps, smart contracts, NFT sites, a
+            voting platform and more. I can quickly integrate browser wallets,
+            develop websites, generate NFTs and design smart-contracts. Don't
+            believe me?
           </span>
         }
         onViewMyWork={() => onViewMyWork(0)}
@@ -69,26 +69,27 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
         title="I work with data & AI."
         description={
           <span>
-            I'm a <span className="text-offblue">blockchain engineer</span>{" "}
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. My focus is high-quality mantainable code
-            while still being able to deliver things quickly by making use of
-            proper sofware engineering practices.
+            I have worked in over 5 data related projects, including
+            web-scraping, web-crawling, data analysis, cleaning and parsing. I
+            have also worked in two AI projects at university and 1 as a
+            personal project. I have good knowledge of Machine Learning
+            algorithms, Neural Networks, State Of The Art Computer Vision
+            techniques and more. Don't believe me?
           </span>
         }
         onViewMyWork={() => onViewMyWork(1)}
       />
       <Presentation
-        title="I create web3 applications."
+        title="I create high-quality software."
         description={
           <span>
-            I'm a <span className="text-offblue">blockchain engineer</span>{" "}
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            I am a <B>software engineer</B> and <B>web developer</B>. While at
+            MSVN, I developed over 20 sites with focus on high-quality
+            mantainable code by making use of proper sofware engineering
+            practices. As a computer science undergraduate, I am capable of
+            handling highly technical programming tasks, such as functional
+            programing techniques, maximum efficiency programs and
+            domain-specific tasks. Don't believe me?
           </span>
         }
         onViewMyWork={() => onViewMyWork(2)}
@@ -98,10 +99,11 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
 };
 
 export default () => {
-  const [currentPage, setCurrentPage] = useState(0);
-
   const backgroundRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+
   const web3Ref: MutableRefObject<HTMLDivElement | null> = useRef(null);
+  const aiRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+  const softRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   const changeBackground = (idx: number) => {
     if (backgroundRef.current == null) return;
@@ -111,8 +113,17 @@ export default () => {
 
   const viewMyWork = (idx: number) => {
     if (web3Ref.current == null) return;
+    if (aiRef.current == null) return;
+    if (softRef.current == null) return;
 
-    web3Ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (idx === 0) {
+      web3Ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    } else if (idx === 1) {
+      aiRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    } else {
+      softRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
   };
 
   return (
@@ -139,7 +150,7 @@ export default () => {
           </div>
         </nav>
         <div className="h-full flex p-8">
-          <div className="z-20 relative h-full w-full flex px-48 py-24">
+          <div className="z-20 relative h-full w-full flex px-48 py-12">
             <div className="w-full flex flex-col gap-8 text-slate-200">
               <RoleSlider
                 onViewMyWork={viewMyWork}
@@ -159,10 +170,12 @@ export default () => {
             I developed dApps and smart contracts.
           </span>
           <p className="opacity-60">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I am a <B>blockchain engineer</B> with over 3 years of work
+            experience in the web3 space. While at MSVN, I developed over 20
+            projects, including custom dApps, smart contracts, NFT sites, a
+            voting platform and more. I can quickly integrate browser wallets,
+            develop websites, generate NFTs and design smart-contracts. Don't
+            believe me?
           </p>
         </div>
         <div className="flex flex-wrap justify-end gap-4 col-span-2 col-start-2 text-white p-8">
@@ -181,34 +194,39 @@ export default () => {
           <ProjectItem />
         </div>
         <div
-          ref={web3Ref}
+          ref={aiRef}
           className="flex flex-col text-end h-full items-center justify-center gap-8 col-span-1 col-start-3 text-white p-8"
         >
           <span className="font-title font-semibold text-4xl">
-            I developed web3 projects.
+            I work closely with AI specialists at university.
           </span>
           <p className="opacity-60">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I have worked in over 5 data related projects, including
+            web-scraping, web-crawling, data analysis, cleaning and parsing. I
+            have also worked in two AI projects at university and 1 as a
+            personal project. I have good knowledge of Machine Learning
+            algorithms, Neural Networks, State Of The Art Computer Vision
+            techniques and more. Don't believe me?
           </p>
         </div>
       </div>
 
       <div className="w-full grid grid-cols-3 px-32 py-16">
         <div
-          ref={web3Ref}
+          ref={softRef}
           className="flex flex-col h-full items-center justify-center gap-8 col-span-1 text-white p-8"
         >
           <span className="font-title font-semibold text-4xl">
-            I developed web3 projects.
+            I can handle highly technical programming tasks.
           </span>
           <p className="opacity-60">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I am a <B>software engineer</B> and <B>web developer</B>. While at
+            MSVN, I developed over 20 sites with focus on high-quality
+            mantainable code by making use of proper sofware engineering
+            practices. As a computer science undergraduate, I am capable of
+            handling highly technical programming tasks, such as functional
+            programing techniques, maximum efficiency programs and
+            domain-specific tasks. Don't believe me?
           </p>
         </div>
         <div className="flex flex-wrap justify-end gap-4 col-span-2 col-start-2 text-white p-8">

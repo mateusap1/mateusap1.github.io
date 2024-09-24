@@ -18,7 +18,7 @@ export default ({ title, description, onViewMyWork }: PresentationProps) => {
         <div className="w-1/2 flex flex-col text-xl text-gray-500">{description}</div>
         <button
           onClick={onViewMyWork}
-          className="w-fit px-4 py-2 border border-offblue text-offblue hover:opacity-75"
+          className="w-fit px-4 py-2 border border-offblue text-offblue hover:bg-offblue hover:text-white hover:font-bold"
         >
           View my work
         </button>
