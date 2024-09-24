@@ -26,7 +26,7 @@ type BProps = {
 };
 
 const B = ({ children }: BProps) => (
-  <span className="text-offblue font-semibold underline decoration-4">
+  <span className="text-offblue font-semibold">
     {children}
   </span>
 );
