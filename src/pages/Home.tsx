@@ -18,7 +18,7 @@ import ProjectItem from "../components/ProjectItem";
 const backgrounds = [
   "/assets/bgweb3.jpg",
   "/assets/bgai.jpg",
-  "/assets/bgweb3.jpg",
+  "/assets/bgsoft.jpg",
 ];
 
 type BProps = {
