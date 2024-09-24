@@ -1,9 +1,10 @@
 import {
-  useState,
-  useEffect,
   useRef,
   MutableRefObject,
   ReactNode,
+  CSSProperties,
+  MouseEventHandler,
+  useState,
 } from "react";
 
 import Slider from "react-slick";
@@ -36,18 +37,37 @@ type RoleSliderProps = {
 };
 
 const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
+  const [currentPage, setCurrentPage] = useState(0);
+
   var settings = {
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    customPaging: (i: number) => (
+      <div className={`${i === currentPage && "bg-offblue"} rounded-lg flex items-center justify-center hover:opacity-75 hover:cursor-pointer`}>
+        <img
+          src={
+            i === 0
+              ? "assets/icons/web3page.svg"
+              : i === 1
+              ? "assets/icons/aipage.svg"
+              : "assets/icons/softpage.svg"
+          }
+          alt={`Slide ${i + 1}`}
+        />
+      </div>
+    ),
   };
 
   return (
     <Slider
-      beforeChange={(_, newIndex) => onChange(newIndex)}
+      beforeChange={(_, newIndex) => {
+        setCurrentPage(newIndex);
+        onChange(newIndex);
+      }}
       className="z-20"
       {...settings}
     >
@@ -123,7 +143,6 @@ export default () => {
     } else {
       softRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-
   };
 
   return (
