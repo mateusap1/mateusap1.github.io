@@ -1,0 +1,335 @@
+{
+    "web3": [
+        {
+            "title": "Royal",
+            "description": "A smart contract and CLI built on Cardano using Haskell and Python, enabling users to define ownership percentages for multiple participants. Funds sent to the designated address are then necessarily distributed according to the specified percentages.",
+            "url": "https://github.com/mateusap1/royal",
+            "keywords": [
+                "Blockchain",
+                "CLI",
+                "Smart-Contract",
+                "Cardano",
+                "Python",
+                "Haskell"
+            ]
+        },
+        {
+            "title": "Comp",
+            "description": "A smart contract, written in Aiken for the Cardano blockchain. It allows admins to create competitions by locking cryptocurrency. Users join by paying a fee and can be voted on. The top three users with the most votes win, with rewards distributed among winners, voters, and admins based on predefined percentages.",
+            "url": "https://github.com/mateusap1?tab=repositories&q=comp",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Smart-Contract",
+                "Aiken",
+                "ReactJS",
+                "TypeScript"
+            ]
+        },
+        {
+            "title": "Blistering",
+            "description": "This website facilitates the purchase of advertisement space on various websites. Payments can be made directly with ADA (a cryptocurrency) or through an invoice sent to the buyer's email. Users can customize their campaigns by selecting ad placements, dates, regions, and budgets.",
+            "url": "https://blabbermouth.blistering.io",
+            "keywords": [
+                "Blockchain",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ]
+        },
+        {
+            "title": "Nano Point Of Sale",
+            "description": "Nano-POS is a desktop Point of Sale (POS) application developed with Electron and TypeScript, specifically designed to process payments in the Nano cryptocurrency (XNO). The application allows users to register products, track purchases, and await incoming payments in Nano. Originally created to encourage real-world adoption of the cryptocurrency, Nano-POS aims to simplify and promote practical use cases for XNO in everyday transactions.",
+            "url": "https://github.com/mateusap1/nano-point-of-sale",
+            "keywords": [
+                "Blockchain",
+                "Desktop",
+                "ElectronJS",
+                "TypeScript"
+            ]
+        },
+        {
+            "title": "Voteaire",
+            "description": "This project features a Web3 website where users can create ballots and vote via the Cardano blockchain. Voting options include NFT votes and ADA votes. Additionally, we developed an escrow smart contract and an oracle to facilitate smart contract access to voting information.",
+            "url": "https://github.com/voteaire",
+            "keywords": [
+                "Blockchain",
+                "WebDev",
+                "Full-Stack",
+                "Smart-Contract",
+                "ReactJS",
+                "Flask",
+                "TypeScript",
+                "Python"
+            ]
+        },
+        {
+            "title": "Goofs",
+            "description": "This project features a Web3 site that allows users to mint and customize NFTs. Users can purchase clothing and items for their NFTs and equip them directly on the website.",
+            "url": "https://app.goofs.world",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ]
+        },
+        {
+            "title": "Degen Dice",
+            "description": "This project is a Web3 site where users can place bets on the outcome of a dice roll. It features an algorithm for generating secure and transparent random numbers using blockchain technology. The site includes full blockchain integration for payments and utilizes Three.js for an animated dice roll.",
+            "url": "",
+            "keywords": [
+                "Blockchain",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask",
+                "ThreeJS"
+            ]
+        },
+        {
+            "title": "Veggies Staking",
+            "description": "This project is a Web3 platform that allows users to stake tokens and earn rewards based on the duration of their staking.",
+            "url": "",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ]
+        },
+        {
+            "title": "Dramz Auction House",
+            "description": "This project is a Web3 auction site for NFTs, where users can list their NFTs for auction and other users can place bids on them.",
+            "url": "",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ]
+        },
+        {
+            "title": "Franchise Pass",
+            "description": "This project is a Web3 site where users can upgrade their purchased NFTs. Level 1 NFTs can have custom names, Level 2 NFTs can feature custom background animations, and Level 3 NFTs can include personalized theme songs.",
+            "url": "",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ]
+        },
+        {
+            "title": "League of Ninja Warriors",
+            "description": "This project involved developing an NFT purchase website to showcase the League of Ninja Warriors NFTs. Although the clients decided not to proceed with the project, the landing page was successfully created.",
+            "url": "",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Front-End",
+                "TypeScript",
+                "ReactJS"
+            ]
+        }
+    ],
+    "ai": [
+        {
+            "title": "Telegram Tracker",
+            "description": "A python script to keep track of prices at an online marketplace and warn the user when a price discount happened.",
+            "url": "https://github.com/mateusap1/telegram-tracker",
+            "keywords": [
+                "Web-Scraping",
+                "Telegram",
+                "Chatbot",
+                "Python"
+            ]
+        },
+        {
+            "title": "PyProxy",
+            "description": "A Python script designed to filter and identify functional proxies from a provided list of IP addresses. The script tests each proxy by attempting a connection, and any proxies that successfully work are saved to an output file for further use.",
+            "url": "https://github.com/mateusap1/pyproxy",
+            "keywords": [
+                "Web-Scraping",
+                "Parser",
+                "Proxy",
+                "Python",
+                "HTML"
+            ]
+        },
+        {
+            "title": "Sky Scraper",
+            "description": "A script built using Python for web-scraping and parsing christian hymns.",
+            "url": "https://github.com/mateusap1/skyscraper",
+            "keywords": [
+                "Web-Scraping",
+                "Parser",
+                "Python"
+            ]
+        },
+        {
+            "title": "AI Detect",
+            "description": "This project applies over five machine learning techniques to determine whether a text was written by a student or a large language model (LLM). The performance of each technique is compared, with Random Forest showing the best results, followed by K-Nearest Neighbors (K-NN).",
+            "url": "https://github.com/mateusap1/ai-detect",
+            "keywords": [
+                "AI",
+                "Machine-Learning",
+                "Python"
+            ]
+        },
+        {
+            "title": "PromptQ",
+            "description": "This project involves a highly efficient REST API written in Go, designed to bridge AI prompts with AI servers. It enables a computer to run AI models locally and respond to user prompts, all while keeping the AI network secure and not publicly accessible.",
+            "url": "https://github.com/mateusap1/promptq",
+            "keywords": [
+                "AI",
+                "Rest-API",
+                "Golang"
+            ]
+        }
+    ],
+    "software": [
+        {
+            "title": "Slides Generator",
+            "description": "This is a collection of Python modules designed to scrape music lyrics from the web and convert them into slide presentations. The tools automate the process of gathering lyrics and formatting them into slides, making it easier to create presentations for events like karaoke, sing-alongs, or performances.",
+            "url": "https://github.com/mateusap1/slides-generator",
+            "keywords": [
+                "Web-Scraping",
+                "Parser",
+                "Slides",
+                "Python"
+            ]
+        },
+        {
+            "title": "Palestrinha",
+            "description": "Palestrinha is a website developed for students to share and search for college events and parties. Events are categorized based on areas defined by the organizers, allowing users to filter listings according to their interests and preferences.",
+            "url": "https://github.com/mateusap1?tab=repositories&q=palestrinha",
+            "keywords": [
+                "WebDev",
+                "Full-Stack",
+                "TypeScript",
+                "NodeJS",
+                "ExpressJS",
+                "ReactJS"
+            ]
+        },
+        {
+            "title": "BBA",
+            "description": "As part of a college project, we implemented the Netflix Buffer-Based Adaptation (BBA) algorithm for video streaming. We began by forking PyDash, an educational tool developed by our professor for simulating video streaming. Following the guidelines from the corresponding scientific paper, we implemented the BBA algorithm in its three variations: BBA-0, BBA-1, and BBA-2.",
+            "url": "https://github.com/mateusap1/bba/commits/bba2",
+            "keywords": [
+                "Streaming",
+                "Network",
+                "Python"
+            ]
+        },
+        {
+            "title": "Img2RiscV",
+            "description": "A very efficient tool built using Rust that converts images to a .data format accepted by the Assembly RISC-V CPUs.",
+            "url": "https://github.com/mateusap1/img2riscv",
+            "keywords": [
+                "Image-Processing",
+                "RiscV",
+                "Rust"
+            ]
+        },
+        {
+            "title": "The One",
+            "description": "This project is an implementation of the \"The One\" programming style in Scala, based on Crista Lopez's book Exercises in Programming Styles. While the book presents the style in Python, this project adapts and implements it in Scala.",
+            "url": "https://github.com/mateusap1/the-one",
+            "keywords": [
+                "Monads",
+                "Functional-Programming",
+                "Scala"
+            ]
+        },
+        {
+            "title": "Ctrl Sim",
+            "description": "This project implements robotic movement for TurtleBot using ROS2 and Gazebo. Written in Python, it features a PI controller that enables the robot to move toward a target while detecting and avoiding obstacles.",
+            "url": "https://github.com/mateusap1/ctrl_sim",
+            "keywords": [
+                "Python",
+                "Robotics",
+                "Ros2"
+            ]
+        },
+        {
+            "title": "FLang",
+            "description": "This project is a complete implementation of a functional language in Scala, including both a parser and an interpreter. It leverages functional programming techniques such as Monads, Monad Transformers, and Parser Combinators.",
+            "url": "https://github.com/mateusap1/FLanguage",
+            "keywords": [
+                "Monads",
+                "Functional-Programming",
+                "Parser",
+                "Scala"
+            ]
+        },
+        {
+            "title": "Oberon-Scala",
+            "description": "Oberon-Scala is a project developed by my professor to implement the Oberon language in Scala. I contributed by fully refactoring the Type Checker, transforming it from object-oriented code to a fully functional design using Monad Transformers.",
+            "url": "https://github.com/mateusap1/Oberon-Scala/tree/feature/refactor-type-checker",
+            "keywords": [
+                "Monads",
+                "Functional-Programming",
+                "Type-Checker",
+                "Scala"
+            ]
+        },
+        {
+            "title": "Varese Crowdfunding",
+            "description": "In collaboration with an Italian colleague, we partnered with the Varese School to host a crowdfunding competition. We created a website for students to submit project ideas, which other students could fund with virtual credits. Upon evaluation by a teacher, students would receive credits if they completed their projects.",
+            "url": "https://github.com/athena-labz?q=crowdfunding",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "Smart-Contract",
+                "WebDev",
+                "Full-Stack",
+                "ReactJS",
+                "TypeScript",
+                "Flask",
+                "Python"
+            ]
+        },
+        {
+            "title": "Varese School Cup",
+            "description": "Following the successful implementation of the crowdfunding initiative with the Varese School, we partnered with additional Italian schools to expand the project. This time, we developed a new website that allowed schools to create their own organizations. Within these organizations, students could form and join groups, with each group submitting projects for evaluation by teachers.",
+            "url": "https://github.com/athena-labz?q=orgs",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "Smart-Contract",
+                "WebDev",
+                "Full-Stack",
+                "ReactJS",
+                "TypeScript",
+                "Flask",
+                "Python"
+            ]
+        }
+    ]
+}
