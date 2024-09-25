@@ -1,11 +1,4 @@
-import {
-  useRef,
-  MutableRefObject,
-  ReactNode,
-  CSSProperties,
-  MouseEventHandler,
-  useState,
-} from "react";
+import { useRef, MutableRefObject, ReactNode, useState } from "react";
 
 import Slider from "react-slick";
 
@@ -26,9 +19,7 @@ type BProps = {
 };
 
 const B = ({ children }: BProps) => (
-  <span className="text-offblue font-semibold">
-    {children}
-  </span>
+  <span className="text-offblue font-semibold">{children}</span>
 );
 
 type RoleSliderProps = {
@@ -149,7 +140,7 @@ export default () => {
       <div
         ref={backgroundRef}
         style={{ backgroundImage: `url("${backgrounds[0]}")` }}
-        className={`h-screen bg-center bg-cover transition-all duration-1000 ease-in-out`}
+        className={`h-screen bg-center bg-cover transition-all duration-500 ease-in-out`}
       >
         <div className="z-10 absolute h-screen inset-0 bg-black opacity-60"></div>
         <nav className="z-20 relative p-8">
@@ -159,10 +150,10 @@ export default () => {
               className="w-fit flex flex-row justify-center hover:opacity-75"
             >
               <button className="border border-offblue px-4 py-2 text-offblue">
-                I also work with AI
+                About Me
               </button>
               <button className="border border-offblue bg-offblue px-2 py-2">
-                <img src="assets/doublearrow.svg" />
+                <img className="rotate-90" src="assets/icons/doublearrow.svg" />
               </button>
             </div>
           </div>
@@ -176,6 +167,27 @@ export default () => {
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="w-full grid grid-cols-3 px-32 py-16">
+        <div className="flex flex-wrap justify-center gap-4 col-span-1 text-white p-8">
+          <div className="relative w-64">
+            {/* <div className="z-10 absolute inset-0 w-full h-full bg-green-200 opacity-60"></div> */}
+            <img className="w-64" src="/assets/profile.png" />
+          </div>
+        </div>
+
+        <div className="flex flex-col text-start h-full items-center justify-left gap-8 col-start-2 col-span-2 text-white p-8">
+          <span className="font-title font-semibold text-4xl">About me.</span>
+          <p className="opacity-60">
+            I am a <B>blockchain engineer</B> with over 3 years of work
+            experience in the web3 space. While at MSVN, I developed over 20
+            projects, including custom dApps, smart contracts, NFT sites, a
+            voting platform and more. I can quickly integrate browser wallets,
+            develop websites, generate NFTs and design smart-contracts. Don't
+            believe me?
+          </p>
         </div>
       </div>
 
@@ -254,6 +266,10 @@ export default () => {
           <ProjectItem />
         </div>
       </div>
+
+      {/* <div className="fixed inset-0 w-full h-screen p-8 bg-slate-200">
+
+      </div> */}
     </div>
   );
 };
