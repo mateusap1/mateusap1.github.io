@@ -110,6 +110,7 @@ const RoleSlider = ({ onChange, onViewMyWork }: RoleSliderProps) => {
 
 export default () => {
   const backgroundRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+  const aboutMeRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   const web3Ref: MutableRefObject<HTMLDivElement | null> = useRef(null);
   const aiRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
@@ -135,6 +136,11 @@ export default () => {
     }
   };
 
+  const goToAboutMe = () => {
+    if (aboutMeRef.current == null) return;
+    aboutMeRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
     <div className="w-full font-display">
       <div
@@ -146,7 +152,7 @@ export default () => {
         <nav className="z-20 relative p-8">
           <div className="flex justify-end">
             <div
-              onClick={() => changeBackground(1)}
+              onClick={goToAboutMe}
               className="w-fit flex flex-row justify-center hover:opacity-75"
             >
               <button className="border border-offblue px-4 py-2 text-offblue">
@@ -170,9 +176,14 @@ export default () => {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-3 px-32 py-16">
+      <div ref={aboutMeRef} className="w-full grid grid-cols-3 px-32 py-16">
         <div className="flex flex-wrap justify-center items-center gap-4 col-span-1 text-white p-8">
-          <img className="w-64" src="/assets/profile.png" />
+          <div className="group hover:cursor-pointer hover:bg-slate-300 hover:border-0 relative rounded-lg border-4 border-gray-400 flex items-end w-72 h-72">
+            <img
+              className="absolute grayscale group-hover:grayscale-0 h-72"
+              src="/assets/profile.png"
+            />
+          </div>
         </div>
         <div className="flex flex-col text-start h-full items-start gap-8 col-start-2 col-span-2 text-white p-8">
           <span className="font-title font-semibold text-4xl">About me.</span>
