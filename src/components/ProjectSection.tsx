@@ -24,10 +24,26 @@ export const ProjectSectionLeft = ({
       {description}
     </div>
     <div className="flex flex-wrap gap-4 text-white p-8 col-span-2 col-start-2 justify-end">
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
     </div>
   </div>
 );
@@ -39,10 +55,26 @@ export const ProjectSectionRight = ({
 }: ProjectSectionProps) => (
   <div className="w-full grid grid-cols-3 px-32 py-16">
     <div className="flex flex-wrap gap-4 text-white p-8 col-span-2 justify-start">
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
+      <ProjectItem
+        title="Integrating Algolia Search with WordPress Multisite"
+        description="Building a custom multisite compatible WordPress plugin to build global search with Algolia."
+        keywords={["Algolia", "WordPress", "PHP"]}
+      />
     </div>
     <div
       ref={secRef}
