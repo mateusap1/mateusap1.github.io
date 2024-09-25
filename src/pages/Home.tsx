@@ -171,23 +171,65 @@ export default () => {
       </div>
 
       <div className="w-full grid grid-cols-3 px-32 py-16">
-        <div className="flex flex-wrap justify-center gap-4 col-span-1 text-white p-8">
-          <div className="relative w-64">
-            {/* <div className="z-10 absolute inset-0 w-full h-full bg-green-200 opacity-60"></div> */}
-            <img className="w-64" src="/assets/profile.png" />
-          </div>
+        <div className="flex flex-wrap justify-center items-center gap-4 col-span-1 text-white p-8">
+          <img className="w-64" src="/assets/profile.png" />
         </div>
-
-        <div className="flex flex-col text-start h-full items-center justify-left gap-8 col-start-2 col-span-2 text-white p-8">
+        <div className="flex flex-col text-start h-full items-start gap-8 col-start-2 col-span-2 text-white p-8">
           <span className="font-title font-semibold text-4xl">About me.</span>
-          <p className="opacity-60">
-            I am a <B>blockchain engineer</B> with over 3 years of work
-            experience in the web3 space. While at MSVN, I developed over 20
-            projects, including custom dApps, smart contracts, NFT sites, a
-            voting platform and more. I can quickly integrate browser wallets,
-            develop websites, generate NFTs and design smart-contracts. Don't
-            believe me?
-          </p>
+          <div className="flex flex-col gap-4 opacity-60">
+            <p>
+              Hi, I’m Mateus! I’m a 6th-semester Computer Science student at the
+              Universidade de Brasília with over 3 years of experience as a
+              software developer. I have a strong interest in functional
+              programming, smart contracts, AI, and data science.
+            </p>
+            <p>
+              My journey in tech began at the age of 14, creating games using
+              the Construct 2 engine. By 16, I was diving into more advanced
+              topics through Harvard’s CS50x online course, where I gained
+              proficiency in C and Python, along with foundational computer
+              science concepts. At 17, I started freelancing on platforms like
+              Fiverr, further honing my skills in web scraping and data parsing.
+            </p>
+            <p>
+              I later joined the Canadian software company MSVN, where I spent 3
+              years developing websites, smart contracts, and building Web3/NFT
+              platforms.
+            </p>
+          </div>
+          <span className="text-start font-title font-semibold text-2xl">
+            University Experience.
+          </span>
+          <div className="flex flex-col gap-4 opacity-60">
+            <p>
+              I joined the Universidade de Brasília at 18, and I’m currently
+              involved in two scientific research projects. One focuses on AI,
+              specifically detecting ramularia disease in plants, while the
+              other involves implementing Behavior-Driven Development (BDD) in
+              robotic missions through a custom-built simulator.
+            </p>
+            <p>
+              During my time at university, I’ve developed key skills including
+              understanding how CPUs and memory work, AI and computer vision
+              concepts, network and Internet protocols, software engineering
+              best practices, and scientific thinking and writing.
+            </p>
+          </div>
+          {/* <p className="opacity-60">
+            Hi, I am Mateus! I am a 6th semester CS undergraduate student at
+            Universidade de Brasília with more than 3 years of work experience
+            as a software developer. I enjoy areas such as functional
+            programming, smart contracts, AI and Data Science. I started my
+            journey when I was 14 by creating games with a game engine called
+            Construct 2. At 16, I started learning more advanced concepts
+            through the CS50x Harvard online course where I learned the C and
+            Python programming languages as well as basic Computer Science
+            concepts. At 17, I started working as a freelancer in platforms like
+            Fiverr where I gained more experience and reinforced my web-scraping
+            and data parsing skills. I then joined the canadian software company
+            MSVN where I spent 3 years building websites, smart contracts and
+            web3 / NFT platforms. 
+          </p> */}
         </div>
       </div>
 
