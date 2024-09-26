@@ -171,7 +171,7 @@
         },
         {
             "title": "PyProxy",
-            "description": "A Python script designed to filter and identify functional proxies from a provided list of IP addresses. The script tests each proxy by attempting a connection, and any proxies that successfully work are saved to an output file for further use.",
+            "description": "A Python script designed to filter and identify functional proxies from a provided list of IP addresses.",
             "url": "https://github.com/mateusap1/pyproxy",
             "keywords": [
                 "Web-Scraping",
@@ -193,7 +193,7 @@
         },
         {
             "title": "AI Detect",
-            "description": "This project applies over five machine learning techniques to determine whether a text was written by a student or a large language model (LLM). The performance of each technique is compared, with Random Forest showing the best results, followed by K-Nearest Neighbors (K-NN).",
+            "description": "A Jupyter Notebook applying over five machine learning techniques to determine whether a text was written by a student or a large language model (LLM).",
             "url": "https://github.com/mateusap1/ai-detect",
             "keywords": [
                 "AI",
@@ -203,7 +203,7 @@
         },
         {
             "title": "PromptQ",
-            "description": "This project involves a highly efficient REST API written in Go, designed to bridge AI prompts with AI servers. It enables a computer to run AI models locally and respond to user prompts, all while keeping the AI network secure and not publicly accessible.",
+            "description": "A highly efficient REST API written in Go, designed to bridge AI prompts with AI servers and enable AI servers to respond to users prompts without exposing the machine publically.",
             "url": "https://github.com/mateusap1/promptq",
             "keywords": [
                 "AI",
@@ -215,7 +215,7 @@
     "software": [
         {
             "title": "Slides Generator",
-            "description": "This is a collection of Python modules designed to scrape music lyrics from the web and convert them into slide presentations. The tools automate the process of gathering lyrics and formatting them into slides, making it easier to create presentations for events like karaoke, sing-alongs, or performances.",
+            "description": "A collection of Python modules designed to scrape music lyrics from the web and convert them into slide presentations.",
             "url": "https://github.com/mateusap1/slides-generator",
             "keywords": [
                 "Web-Scraping",
@@ -226,7 +226,7 @@
         },
         {
             "title": "Palestrinha",
-            "description": "Palestrinha is a website developed for students to share and search for college events and parties. Events are categorized based on areas defined by the organizers, allowing users to filter listings according to their interests and preferences.",
+            "description": "A website developed for students to share and search for college events and parties.",
             "url": "https://github.com/mateusap1?tab=repositories&q=palestrinha",
             "keywords": [
                 "WebDev",
@@ -239,7 +239,7 @@
         },
         {
             "title": "BBA",
-            "description": "As part of a college project, we implemented the Netflix Buffer-Based Adaptation (BBA) algorithm for video streaming. We began by forking PyDash, an educational tool developed by our professor for simulating video streaming. Following the guidelines from the corresponding scientific paper, we implemented the BBA algorithm in its three variations: BBA-0, BBA-1, and BBA-2.",
+            "description": "A college project implementing the Netflix Buffer-Based Adaptation (BBA) algorithm for video streaming.",
             "url": "https://github.com/mateusap1/bba/commits/bba2",
             "keywords": [
                 "Streaming",
@@ -259,7 +259,7 @@
         },
         {
             "title": "The One",
-            "description": "This project is an implementation of the \"The One\" programming style in Scala, based on Crista Lopez's book Exercises in Programming Styles. While the book presents the style in Python, this project adapts and implements it in Scala.",
+            "description": "A Scala implementation of the \"The One\" programming style in Scala, based on Crista Lopez's book Exercises in Programming Styles.",
             "url": "https://github.com/mateusap1/the-one",
             "keywords": [
                 "Monads",
@@ -269,28 +269,30 @@
         },
         {
             "title": "Ctrl Sim",
-            "description": "This project implements robotic movement for TurtleBot using ROS2 and Gazebo. Written in Python, it features a PI controller that enables the robot to move toward a target while detecting and avoiding obstacles.",
+            "description": "The implementation of robotic movement for TurtleBot using ROS2 and Gazebo.",
             "url": "https://github.com/mateusap1/ctrl_sim",
             "keywords": [
                 "Python",
                 "Robotics",
-                "Ros2"
+                "Ros2",
+                "Gazebo"
             ]
         },
         {
             "title": "FLang",
-            "description": "This project is a complete implementation of a functional language in Scala, including both a parser and an interpreter. It leverages functional programming techniques such as Monads, Monad Transformers, and Parser Combinators.",
+            "description": "A complete implementation of a functional language in Scala, including both a parser and an interpreter leveraging functional programming techniques.",
             "url": "https://github.com/mateusap1/FLanguage",
             "keywords": [
                 "Monads",
                 "Functional-Programming",
                 "Parser",
+                "Parser Combinators",
                 "Scala"
             ]
         },
         {
             "title": "Oberon-Scala",
-            "description": "Oberon-Scala is a project developed by my professor to implement the Oberon language in Scala. I contributed by fully refactoring the Type Checker, transforming it from object-oriented code to a fully functional design using Monad Transformers.",
+            "description": "Contribution to the Oberon-Scala project with a full refactor of the Type Checker to a fully functional-oriented design.",
             "url": "https://github.com/mateusap1/Oberon-Scala/tree/feature/refactor-type-checker",
             "keywords": [
                 "Monads",
@@ -301,7 +303,7 @@
         },
         {
             "title": "Varese Crowdfunding",
-            "description": "In collaboration with an Italian colleague, we partnered with the Varese School to host a crowdfunding competition. We created a website for students to submit project ideas, which other students could fund with virtual credits. Upon evaluation by a teacher, students would receive credits if they completed their projects.",
+            "description": "A crowdfuding website made for the Varese School where students could submit project ideas and be funded with virtual credits.",
             "url": "https://github.com/athena-labz?q=crowdfunding",
             "keywords": [
                 "Blockchain",
@@ -317,7 +319,7 @@
         },
         {
             "title": "Varese School Cup",
-            "description": "Following the successful implementation of the crowdfunding initiative with the Varese School, we partnered with additional Italian schools to expand the project. This time, we developed a new website that allowed schools to create their own organizations. Within these organizations, students could form and join groups, with each group submitting projects for evaluation by teachers.",
+            "description": "A website built for the Varese School Cup allowing schools to create organizations where students could form groups and submit projects to help the event.",
             "url": "https://github.com/athena-labz?q=orgs",
             "keywords": [
                 "Blockchain",
