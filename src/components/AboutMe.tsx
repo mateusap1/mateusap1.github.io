@@ -7,9 +7,9 @@ type AboutMeProps = {
 export default ({ secRef }: AboutMeProps) => (
   <div ref={secRef} className="w-full grid grid-cols-3 px-32 py-16">
     <div className="flex flex-wrap justify-center items-center gap-4 col-span-1 text-white p-8">
-      <div className="group hover:cursor-pointer hover:bg-slate-300 hover:border-0 relative rounded-lg border-4 border-gray-400 flex items-end w-72 h-72">
+      <div className="group relative flex items-end w-72 h-72">
         <img
-          className="absolute grayscale group-hover:grayscale-0 h-72"
+          className="absolute h-72"
           src="/assets/profile.png"
         />
       </div>
