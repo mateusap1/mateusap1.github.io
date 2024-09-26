@@ -6,6 +6,7 @@ export type ProjectInfo = {
   title: string;
   description: string;
   keywords: string[];
+  date: string;
   url?: string;
 };
 
@@ -60,12 +61,13 @@ export const ProjectSectionLeft = ({
             <ProjectItem
               title={p.title}
               description={p.description}
+              date={p.date}
               keywords={p.keywords}
             />
           ))}
           {Array.from({ length: 4 - currentProjects.length }, (_, i) => i).map(
             () => (
-              <ProjectItem title="" description="" keywords={[]} hidden />
+              <ProjectItem title="" description="" keywords={[]} date="" hidden />
             )
           )}
         </div>
@@ -128,12 +130,13 @@ export const ProjectSectionRight = ({
             <ProjectItem
               title={p.title}
               description={p.description}
+              date={p.date}
               keywords={p.keywords}
             />
           ))}
           {Array.from({ length: 4 - currentProjects.length }, (_, i) => i).map(
             () => (
-              <ProjectItem title="" description="" keywords={[]} hidden />
+              <ProjectItem title="" description="" date="" keywords={[]} hidden />
             )
           )}
         </div>

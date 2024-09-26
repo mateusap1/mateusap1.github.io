@@ -11,7 +11,8 @@
                 "Cardano",
                 "Python",
                 "Haskell"
-            ]
+            ],
+            "date": "2021"
         },
         {
             "title": "Comp",
@@ -26,7 +27,8 @@
                 "Aiken",
                 "ReactJS",
                 "TypeScript"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "Blistering",
@@ -40,7 +42,8 @@
                 "TypeScript",
                 "ReactJS",
                 "Flask"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "Nano Point Of Sale",
@@ -51,7 +54,8 @@
                 "Desktop",
                 "ElectronJS",
                 "TypeScript"
-            ]
+            ],
+            "date": "2021"
         },
         {
             "title": "Voteaire",
@@ -66,7 +70,8 @@
                 "Flask",
                 "TypeScript",
                 "Python"
-            ]
+            ],
+            "date": "2022"
         },
         {
             "title": "Goofs",
@@ -81,7 +86,8 @@
                 "TypeScript",
                 "ReactJS",
                 "Flask"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "Degen Dice",
@@ -96,7 +102,8 @@
                 "ReactJS",
                 "Flask",
                 "ThreeJS"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "Veggies Staking",
@@ -111,7 +118,8 @@
                 "TypeScript",
                 "ReactJS",
                 "Flask"
-            ]
+            ],
+            "date": "2022"
         },
         {
             "title": "Dramz Auction House",
@@ -126,7 +134,8 @@
                 "TypeScript",
                 "ReactJS",
                 "Flask"
-            ]
+            ],
+            "date": "2022"
         },
         {
             "title": "Franchise Pass",
@@ -141,7 +150,8 @@
                 "TypeScript",
                 "ReactJS",
                 "Flask"
-            ]
+            ],
+            "date": "2022"
         },
         {
             "title": "League of Ninja Warriors",
@@ -154,7 +164,8 @@
                 "Front-End",
                 "TypeScript",
                 "ReactJS"
-            ]
+            ],
+            "date": "2022"
         }
     ],
     "ai": [
@@ -167,7 +178,8 @@
                 "Telegram",
                 "Chatbot",
                 "Python"
-            ]
+            ],
+            "date": "2021"
         },
         {
             "title": "PyProxy",
@@ -179,7 +191,8 @@
                 "Proxy",
                 "Python",
                 "HTML"
-            ]
+            ],
+            "date": "2021"
         },
         {
             "title": "Sky Scraper",
@@ -189,7 +202,8 @@
                 "Web-Scraping",
                 "Parser",
                 "Python"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "AI Detect",
@@ -199,7 +213,8 @@
                 "AI",
                 "Machine-Learning",
                 "Python"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "PromptQ",
@@ -209,7 +224,8 @@
                 "AI",
                 "Rest-API",
                 "Golang"
-            ]
+            ],
+            "date": "2024"
         }
     ],
     "software": [
@@ -222,7 +238,8 @@
                 "Parser",
                 "Slides",
                 "Python"
-            ]
+            ],
+            "date": "2020"
         },
         {
             "title": "Palestrinha",
@@ -235,7 +252,8 @@
                 "NodeJS",
                 "ExpressJS",
                 "ReactJS"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "BBA",
@@ -245,7 +263,8 @@
                 "Streaming",
                 "Network",
                 "Python"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "Img2RiscV",
@@ -255,7 +274,8 @@
                 "Image-Processing",
                 "RiscV",
                 "Rust"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "The One",
@@ -265,7 +285,8 @@
                 "Monads",
                 "Functional-Programming",
                 "Scala"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "Ctrl Sim",
@@ -276,7 +297,8 @@
                 "Robotics",
                 "Ros2",
                 "Gazebo"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "FLang",
@@ -288,7 +310,8 @@
                 "Parser",
                 "Parser Combinators",
                 "Scala"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "Oberon-Scala",
@@ -299,7 +322,8 @@
                 "Functional-Programming",
                 "Type-Checker",
                 "Scala"
-            ]
+            ],
+            "date": "2024"
         },
         {
             "title": "Varese Crowdfunding",
@@ -315,7 +339,8 @@
                 "TypeScript",
                 "Flask",
                 "Python"
-            ]
+            ],
+            "date": "2023"
         },
         {
             "title": "Varese School Cup",
@@ -331,7 +356,8 @@
                 "TypeScript",
                 "Flask",
                 "Python"
-            ]
+            ],
+            "date": "2024"
         }
     ]
 }

@@ -1,6 +1,7 @@
 type ProjectItemProps = {
   title: string;
   description: string;
+  date: string;
   keywords: string[];
   hidden?: boolean;
 };
@@ -9,6 +10,7 @@ export default ({
   title,
   description,
   keywords,
+  date,
   hidden = false,
 }: ProjectItemProps) => {
   return (
@@ -17,10 +19,10 @@ export default ({
         hidden && "invisible"
       }`}
     >
-      <div className="px-8 pt-4 flex justify-between">
+      <div className="px-8 pt-4 flex justify-between items-center">
         <img className="w-8" src="assets/icons/folder.svg" />
 
-        <img className="w-4" src="assets/icons/github.svg" />
+        <span className="font-semibold text-offblue">{date}</span>
       </div>
       <div className="px-8 pb-4 pt-4 h-full flex flex-col gap-4 border-t-2 border-offblue hover:bg-offblue hover:cursor-pointer transition duration-150 ease-in-out">
         <div className="flex flex-col gap-2 h-full">
