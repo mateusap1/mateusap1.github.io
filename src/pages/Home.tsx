@@ -80,7 +80,7 @@ export default () => {
                 projects, including custom dApps, smart contracts, NFT sites, a
                 voting platform and more. I can quickly integrate browser
                 wallets, develop websites, generate NFTs and design
-                smart-contracts. Don't believe me?
+                smart-contracts.
               </p>
             }
           />
@@ -96,7 +96,7 @@ export default () => {
                 I have also worked in two AI projects at university and 1 as a
                 personal project. I have good knowledge of Machine Learning
                 algorithms, Neural Networks, State Of The Art Computer Vision
-                techniques and more. Don't believe me?
+                techniques and more.
               </p>
             }
             isSideRight
@@ -114,7 +114,7 @@ export default () => {
                 practices. As a computer science undergraduate, I am capable of
                 handling highly technical programming tasks, such as functional
                 programing techniques, maximum efficiency programs and
-                domain-specific tasks. Don't believe me?
+                domain-specific tasks.
               </p>
             }
           />

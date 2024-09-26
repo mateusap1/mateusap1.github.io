@@ -32,13 +32,14 @@ export default ({ goToAboutMe, goToWork }: LandingProps) => {
         <div className="flex justify-end">
           <div
             onClick={goToAboutMe}
-            className="w-fit flex flex-row justify-center hover:opacity-75"
+            className="group w-fit flex flex-row justify-center hover:cursor-pointer"
           >
-            <button className="border border-offblue px-4 py-2 text-offblue">
+            <button className="border group-hover:bg-offblue group-hover:text-white group-hover:font-semibold border-offblue px-4 py-2 text-offblue">
               About Me
             </button>
-            <button className="border border-offblue bg-offblue px-2 py-2">
-              <img className="rotate-90" src="assets/icons/doublearrow.svg" />
+            <button className="border border-offblue group-hover:bg-transparent bg-offblue px-2 py-2">
+              <img className="rotate-90 group-hover:hidden" src="assets/icons/doublearrow.svg" />
+              <img className="hidden group-hover:inline rotate-90" src="assets/icons/doublearrow_white.svg" />
             </button>
           </div>
         </div>
