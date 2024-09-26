@@ -1,6 +1,38 @@
 {
     "web3": [
         {
+            "title": "Voteaire",
+            "description": "A Web3 site where users can create ballots and vote via the blockchain integrated with an oracle and an escrow smart-contract.",
+            "url": "https://github.com/voteaire",
+            "keywords": [
+                "Blockchain",
+                "WebDev",
+                "Full-Stack",
+                "Smart-Contract",
+                "ReactJS",
+                "Flask",
+                "TypeScript",
+                "Python"
+            ],
+            "date": "2022"
+        },
+        {
+            "title": "Goofs",
+            "description": "A Web3 site that allows users to mint and customize NFTs. Users can purchase clothing and items for their NFTs and equip them directly on the website.",
+            "url": "https://app.goofs.world",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "WebDev",
+                "Full-Stack",
+                "Python",
+                "TypeScript",
+                "ReactJS",
+                "Flask"
+            ],
+            "date": "2024"
+        },
+        {
             "title": "Royal",
             "description": "A smart contract and CLI built on Cardano using Haskell and Python, enabling users to define ownership percentages for multiple participants.",
             "url": "https://github.com/mateusap1/royal",
@@ -58,25 +90,9 @@
             "date": "2021"
         },
         {
-            "title": "Voteaire",
-            "description": "A Web3 site where users can create ballots and vote via the blockchain integrated with an oracle and an escrow smart-contract.",
-            "url": "https://github.com/voteaire",
-            "keywords": [
-                "Blockchain",
-                "WebDev",
-                "Full-Stack",
-                "Smart-Contract",
-                "ReactJS",
-                "Flask",
-                "TypeScript",
-                "Python"
-            ],
-            "date": "2022"
-        },
-        {
-            "title": "Goofs",
-            "description": "A Web3 site that allows users to mint and customize NFTs. Users can purchase clothing and items for their NFTs and equip them directly on the website.",
-            "url": "https://app.goofs.world",
+            "title": "Dramz Auction House",
+            "description": "A Web3 auction site for NFTs, where users can list their NFTs for auction and other users can place bids on them.",
+            "url": "",
             "keywords": [
                 "Blockchain",
                 "NFT",
@@ -87,7 +103,7 @@
                 "ReactJS",
                 "Flask"
             ],
-            "date": "2024"
+            "date": "2022"
         },
         {
             "title": "Degen Dice",
@@ -108,22 +124,6 @@
         {
             "title": "Veggies Staking",
             "description": "A Web3 platform that allows users to stake tokens and earn rewards based on the duration of their staking.",
-            "url": "",
-            "keywords": [
-                "Blockchain",
-                "NFT",
-                "WebDev",
-                "Full-Stack",
-                "Python",
-                "TypeScript",
-                "ReactJS",
-                "Flask"
-            ],
-            "date": "2022"
-        },
-        {
-            "title": "Dramz Auction House",
-            "description": "A Web3 auction site for NFTs, where users can list their NFTs for auction and other users can place bids on them.",
             "url": "",
             "keywords": [
                 "Blockchain",
@@ -170,42 +170,6 @@
     ],
     "ai": [
         {
-            "title": "Telegram Tracker",
-            "description": "A python script to keep track of prices at an online marketplace and warn the user when a price discount happened.",
-            "url": "https://github.com/mateusap1/telegram-tracker",
-            "keywords": [
-                "Web-Scraping",
-                "Telegram",
-                "Chatbot",
-                "Python"
-            ],
-            "date": "2021"
-        },
-        {
-            "title": "PyProxy",
-            "description": "A Python script designed to filter and identify functional proxies from a provided list of IP addresses.",
-            "url": "https://github.com/mateusap1/pyproxy",
-            "keywords": [
-                "Web-Scraping",
-                "Parser",
-                "Proxy",
-                "Python",
-                "HTML"
-            ],
-            "date": "2021"
-        },
-        {
-            "title": "Sky Scraper",
-            "description": "A script built using Python for web-scraping and parsing christian hymns.",
-            "url": "https://github.com/mateusap1/skyscraper",
-            "keywords": [
-                "Web-Scraping",
-                "Parser",
-                "Python"
-            ],
-            "date": "2023"
-        },
-        {
             "title": "AI Detect",
             "description": "A Jupyter Notebook applying over five machine learning techniques to determine whether a text was written by a student or a large language model (LLM).",
             "url": "https://github.com/mateusap1/ai-detect",
@@ -226,20 +190,69 @@
                 "Golang"
             ],
             "date": "2024"
+        },
+        {
+            "title": "Telegram Tracker",
+            "description": "A python script to keep track of prices at an online marketplace and warn the user when a price discount happened.",
+            "url": "https://github.com/mateusap1/telegram-tracker",
+            "keywords": [
+                "Web-Scraping",
+                "Telegram",
+                "Chatbot",
+                "Python"
+            ],
+            "date": "2021"
+        },
+        {
+            "title": "Sky Scraper",
+            "description": "A script built using Python for web-scraping and parsing christian hymns.",
+            "url": "https://github.com/mateusap1/skyscraper",
+            "keywords": [
+                "Web-Scraping",
+                "Parser",
+                "Python"
+            ],
+            "date": "2023"
+        },
+        {
+            "title": "PyProxy",
+            "description": "A Python script designed to filter and identify functional proxies from a provided list of IP addresses.",
+            "url": "https://github.com/mateusap1/pyproxy",
+            "keywords": [
+                "Web-Scraping",
+                "Parser",
+                "Proxy",
+                "Python",
+                "HTML"
+            ],
+            "date": "2021"
         }
     ],
     "software": [
         {
-            "title": "Slides Generator",
-            "description": "A collection of Python modules designed to scrape music lyrics from the web and convert them into slide presentations.",
-            "url": "https://github.com/mateusap1/slides-generator",
+            "title": "Oberon-Scala",
+            "description": "Contribution to the Oberon-Scala project with a full refactor of the Type Checker to a fully functional-oriented design.",
+            "url": "https://github.com/mateusap1/Oberon-Scala/tree/feature/refactor-type-checker",
             "keywords": [
-                "Web-Scraping",
-                "Parser",
-                "Slides",
-                "Python"
+                "Monads",
+                "Functional-Programming",
+                "Type-Checker",
+                "Scala"
             ],
-            "date": "2020"
+            "date": "2024"
+        },
+        {
+            "title": "FLang",
+            "description": "A complete implementation of a functional language in Scala, including both a parser and an interpreter leveraging functional programming techniques.",
+            "url": "https://github.com/mateusap1/FLanguage",
+            "keywords": [
+                "Monads",
+                "Functional-Programming",
+                "Parser",
+                "Parser Combinators",
+                "Scala"
+            ],
+            "date": "2024"
         },
         {
             "title": "Palestrinha",
@@ -254,6 +267,23 @@
                 "ReactJS"
             ],
             "date": "2023"
+        },
+        {
+            "title": "Varese School Cup",
+            "description": "A website built for the Varese School Cup allowing schools to create organizations where students could form groups and submit projects to help the event.",
+            "url": "https://github.com/athena-labz?q=orgs",
+            "keywords": [
+                "Blockchain",
+                "NFT",
+                "Smart-Contract",
+                "WebDev",
+                "Full-Stack",
+                "ReactJS",
+                "TypeScript",
+                "Flask",
+                "Python"
+            ],
+            "date": "2024"
         },
         {
             "title": "BBA",
@@ -278,17 +308,6 @@
             "date": "2023"
         },
         {
-            "title": "The One",
-            "description": "A Scala implementation of the \"The One\" programming style in Scala, based on Crista Lopez's book Exercises in Programming Styles.",
-            "url": "https://github.com/mateusap1/the-one",
-            "keywords": [
-                "Monads",
-                "Functional-Programming",
-                "Scala"
-            ],
-            "date": "2024"
-        },
-        {
             "title": "Ctrl Sim",
             "description": "The implementation of robotic movement for TurtleBot using ROS2 and Gazebo.",
             "url": "https://github.com/mateusap1/ctrl_sim",
@@ -301,26 +320,12 @@
             "date": "2024"
         },
         {
-            "title": "FLang",
-            "description": "A complete implementation of a functional language in Scala, including both a parser and an interpreter leveraging functional programming techniques.",
-            "url": "https://github.com/mateusap1/FLanguage",
+            "title": "The One",
+            "description": "A Scala implementation of the \"The One\" programming style in Scala, based on Crista Lopez's book Exercises in Programming Styles.",
+            "url": "https://github.com/mateusap1/the-one",
             "keywords": [
                 "Monads",
                 "Functional-Programming",
-                "Parser",
-                "Parser Combinators",
-                "Scala"
-            ],
-            "date": "2024"
-        },
-        {
-            "title": "Oberon-Scala",
-            "description": "Contribution to the Oberon-Scala project with a full refactor of the Type Checker to a fully functional-oriented design.",
-            "url": "https://github.com/mateusap1/Oberon-Scala/tree/feature/refactor-type-checker",
-            "keywords": [
-                "Monads",
-                "Functional-Programming",
-                "Type-Checker",
                 "Scala"
             ],
             "date": "2024"
@@ -343,21 +348,16 @@
             "date": "2023"
         },
         {
-            "title": "Varese School Cup",
-            "description": "A website built for the Varese School Cup allowing schools to create organizations where students could form groups and submit projects to help the event.",
-            "url": "https://github.com/athena-labz?q=orgs",
+            "title": "Slides Generator",
+            "description": "A collection of Python modules designed to scrape music lyrics from the web and convert them into slide presentations.",
+            "url": "https://github.com/mateusap1/slides-generator",
             "keywords": [
-                "Blockchain",
-                "NFT",
-                "Smart-Contract",
-                "WebDev",
-                "Full-Stack",
-                "ReactJS",
-                "TypeScript",
-                "Flask",
+                "Web-Scraping",
+                "Parser",
+                "Slides",
                 "Python"
             ],
-            "date": "2024"
+            "date": "2020"
         }
     ]
 }
