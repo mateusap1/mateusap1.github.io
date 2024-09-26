@@ -2,11 +2,21 @@ type ProjectItemProps = {
   title: string;
   description: string;
   keywords: string[];
+  hidden?: boolean;
 };
 
-export default ({ title, description, keywords }: ProjectItemProps) => {
+export default ({
+  title,
+  description,
+  keywords,
+  hidden = false,
+}: ProjectItemProps) => {
   return (
-    <div className="w-80 h-80 gap-4 flex flex-col border-2 border-offblue rounded-lg">
+    <div
+      className={`w-80 h-80 gap-4 flex flex-col border-2 border-offblue rounded-lg ${
+        hidden && "invisible"
+      }`}
+    >
       <div className="px-8 pt-4 flex justify-between">
         <img className="w-8" src="assets/icons/folder.svg" />
 

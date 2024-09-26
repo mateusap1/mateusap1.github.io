@@ -63,6 +63,11 @@ export const ProjectSectionLeft = ({
               keywords={p.keywords}
             />
           ))}
+          {Array.from({ length: 4 - currentProjects.length }, (_, i) => i).map(
+            () => (
+              <ProjectItem title="" description="" keywords={[]} hidden />
+            )
+          )}
         </div>
         <div className="mt-8 flex justify-end items-center gap-4">
           <button
@@ -126,6 +131,11 @@ export const ProjectSectionRight = ({
               keywords={p.keywords}
             />
           ))}
+          {Array.from({ length: 4 - currentProjects.length }, (_, i) => i).map(
+            () => (
+              <ProjectItem title="" description="" keywords={[]} hidden />
+            )
+          )}
         </div>
         <div className="mt-8 flex justify-start items-center gap-4">
           <button
