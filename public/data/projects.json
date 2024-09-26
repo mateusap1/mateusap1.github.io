@@ -55,7 +55,7 @@
         },
         {
             "title": "Voteaire",
-            "description": "This project features a Web3 website where users can create ballots and vote via the Cardano blockchain. Voting options include NFT votes and ADA votes. Additionally, we developed an escrow smart contract and an oracle to facilitate smart contract access to voting information.",
+            "description": "A Web3 site where users can create ballots and vote via the blockchain integrated with an oracle and an escrow smart-contract.",
             "url": "https://github.com/voteaire",
             "keywords": [
                 "Blockchain",
@@ -70,7 +70,7 @@
         },
         {
             "title": "Goofs",
-            "description": "This project features a Web3 site that allows users to mint and customize NFTs. Users can purchase clothing and items for their NFTs and equip them directly on the website.",
+            "description": "A Web3 site that allows users to mint and customize NFTs. Users can purchase clothing and items for their NFTs and equip them directly on the website.",
             "url": "https://app.goofs.world",
             "keywords": [
                 "Blockchain",
@@ -85,7 +85,7 @@
         },
         {
             "title": "Degen Dice",
-            "description": "This project is a Web3 site where users can place bets on the outcome of a dice roll. It features an algorithm for generating secure and transparent random numbers using blockchain technology. The site includes full blockchain integration for payments and utilizes Three.js for an animated dice roll.",
+            "description": "A Web3 site where users can place bets on the outcome of a dice roll, featuring payment integration and a blockchain algorithm for generating secure random numbers.",
             "url": "",
             "keywords": [
                 "Blockchain",
@@ -100,7 +100,7 @@
         },
         {
             "title": "Veggies Staking",
-            "description": "This project is a Web3 platform that allows users to stake tokens and earn rewards based on the duration of their staking.",
+            "description": "A Web3 platform that allows users to stake tokens and earn rewards based on the duration of their staking.",
             "url": "",
             "keywords": [
                 "Blockchain",
@@ -115,7 +115,7 @@
         },
         {
             "title": "Dramz Auction House",
-            "description": "This project is a Web3 auction site for NFTs, where users can list their NFTs for auction and other users can place bids on them.",
+            "description": "A Web3 auction site for NFTs, where users can list their NFTs for auction and other users can place bids on them.",
             "url": "",
             "keywords": [
                 "Blockchain",
@@ -130,7 +130,7 @@
         },
         {
             "title": "Franchise Pass",
-            "description": "This project is a Web3 site where users can upgrade their purchased NFTs. Level 1 NFTs can have custom names, Level 2 NFTs can feature custom background animations, and Level 3 NFTs can include personalized theme songs.",
+            "description": "A Web3 site where users can upgrade their purchased NFTs with custom names, background animations, and theme songs.",
             "url": "",
             "keywords": [
                 "Blockchain",
@@ -145,7 +145,7 @@
         },
         {
             "title": "League of Ninja Warriors",
-            "description": "This project involved developing an NFT purchase website to showcase the League of Ninja Warriors NFTs. Although the clients decided not to proceed with the project, the landing page was successfully created.",
+            "description": "A Web3 site to showcase and purchase the League of Ninja Warriors NFTs.",
             "url": "",
             "keywords": [
                 "Blockchain",

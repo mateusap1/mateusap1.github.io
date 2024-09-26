@@ -17,7 +17,7 @@ export default ({ title, description, keywords }: ProjectItemProps) => {
           <span className="font-title font-bold text-xl">{title}</span>
           <span className="text-sm opacity-75">{description}</span>
         </div>
-        <div className="flex flex-wrap gap-2 text-xs opacity-50">
+        <div className="flex flex-wrap gap-x-2 gap-y-1 text-xs opacity-50">
           {keywords.map((keyword) => (
             <span>{keyword}</span>
           ))}
