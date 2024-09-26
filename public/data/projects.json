@@ -2,7 +2,7 @@
     "web3": [
         {
             "title": "Royal",
-            "description": "A smart contract and CLI built on Cardano using Haskell and Python, enabling users to define ownership percentages for multiple participants. Funds sent to the designated address are then necessarily distributed according to the specified percentages.",
+            "description": "A smart contract and CLI built on Cardano using Haskell and Python, enabling users to define ownership percentages for multiple participants.",
             "url": "https://github.com/mateusap1/royal",
             "keywords": [
                 "Blockchain",
@@ -15,7 +15,7 @@
         },
         {
             "title": "Comp",
-            "description": "A smart contract, written in Aiken for the Cardano blockchain. It allows admins to create competitions by locking cryptocurrency. Users join by paying a fee and can be voted on. The top three users with the most votes win, with rewards distributed among winners, voters, and admins based on predefined percentages.",
+            "description": "A smart contract, written in Aiken for the Cardano blockchain allowing users to join competitions and be voted on by paying a fee.",
             "url": "https://github.com/mateusap1?tab=repositories&q=comp",
             "keywords": [
                 "Blockchain",
@@ -30,7 +30,7 @@
         },
         {
             "title": "Blistering",
-            "description": "This website facilitates the purchase of advertisement space on various websites. Payments can be made directly with ADA (a cryptocurrency) or through an invoice sent to the buyer's email. Users can customize their campaigns by selecting ad placements, dates, regions, and budgets.",
+            "description": "A Web3 site with Cardano payment integration which facilitates the purchase of advertisement space on various websites.",
             "url": "https://blabbermouth.blistering.io",
             "keywords": [
                 "Blockchain",
@@ -44,7 +44,7 @@
         },
         {
             "title": "Nano Point Of Sale",
-            "description": "Nano-POS is a desktop Point of Sale (POS) application developed with Electron and TypeScript, specifically designed to process payments in the Nano cryptocurrency (XNO). The application allows users to register products, track purchases, and await incoming payments in Nano. Originally created to encourage real-world adoption of the cryptocurrency, Nano-POS aims to simplify and promote practical use cases for XNO in everyday transactions.",
+            "description": "A desktop Point of Sale (POS) application designed to process payments using the Nano cryptocurrency (XNO).",
             "url": "https://github.com/mateusap1/nano-point-of-sale",
             "keywords": [
                 "Blockchain",
