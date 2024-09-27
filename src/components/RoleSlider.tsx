@@ -57,8 +57,7 @@ export default ({ onChange, onViewMyWork }: RoleSliderProps) => {
             I am a <B>blockchain engineer</B> with over 3 years of work
             experience in the web3 space. While at MSVN, I developed over 20
             projects, including custom dApps, smart contracts, NFT sites, a
-            voting platform and more. I can quickly integrate browser wallets,
-            develop websites, generate NFTs and design smart-contracts.
+            voting platform and more.
           </span>
         }
         onViewMyWork={() => onViewMyWork(0)}
