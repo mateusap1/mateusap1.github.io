@@ -23,24 +23,44 @@ export default () => {
   const softRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   const [projects, setProjects] = useState<ProjectJSON | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener("resize", checkIsMobile);
+    return () => window.removeEventListener("resize", checkIsMobile);
+  }, []);
 
   const viewMyWork = (idx: number) => {
     if (web3Ref.current == null) return;
     if (aiRef.current == null) return;
     if (softRef.current == null) return;
 
+    let scrollMode: ScrollIntoViewOptions = {
+      behavior: "smooth",
+      block: isMobile ? "start" : "center",
+    };
+
     if (idx === 0) {
-      web3Ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
+      web3Ref.current.scrollIntoView(scrollMode);
     } else if (idx === 1) {
-      aiRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+      aiRef.current.scrollIntoView(scrollMode);
     } else {
-      softRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+      softRef.current.scrollIntoView(scrollMode);
     }
   };
 
   const goToAboutMe = () => {
     if (aboutMeRef.current == null) return;
-    aboutMeRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    aboutMeRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: isMobile ? "start" : "center",
+    });
   };
 
   const loadProjects = async () => {
@@ -83,6 +103,7 @@ export default () => {
                 smart-contracts.
               </p>
             }
+            isMobile={isMobile}
           />
 
           <ProjectSectionRight
@@ -99,7 +120,7 @@ export default () => {
                 techniques and more.
               </p>
             }
-            isSideRight
+            isMobile={isMobile}
           />
 
           <ProjectSectionLeft
@@ -117,6 +138,7 @@ export default () => {
                 domain-specific tasks.
               </p>
             }
+            isMobile={isMobile}
           />
         </>
       ) : (

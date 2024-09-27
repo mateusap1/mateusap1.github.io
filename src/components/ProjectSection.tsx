@@ -15,7 +15,7 @@ type ProjectSectionProps = {
   title: string;
   description: ReactNode;
   projects: ProjectInfo[];
-  isSideRight?: boolean;
+  isMobile?: boolean;
 };
 
 export const ProjectSectionLeft = ({
@@ -23,8 +23,8 @@ export const ProjectSectionLeft = ({
   description,
   projects,
   secRef,
+  isMobile = false
 }: ProjectSectionProps) => {
-  const [isMobile, setIsMobile] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
 
   const projectsPerPage = isMobile ? 1 : 4;
@@ -34,16 +34,6 @@ export const ProjectSectionLeft = ({
     currentPage * projectsPerPage,
     (currentPage + 1) * projectsPerPage
   );
-
-  useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkIsMobile();
-    window.addEventListener("resize", checkIsMobile);
-    return () => window.removeEventListener("resize", checkIsMobile);
-  }, []);
 
   const handlePrevPage = () => {
     setCurrentPage((prev) => (prev > 0 ? prev - 1 : prev));
@@ -132,8 +122,8 @@ export const ProjectSectionRight = ({
   description,
   projects,
   secRef,
+  isMobile = false
 }: ProjectSectionProps) => {
-  const [isMobile, setIsMobile] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
 
   const projectsPerPage = isMobile ? 1 : 4;
@@ -143,16 +133,6 @@ export const ProjectSectionRight = ({
     currentPage * projectsPerPage,
     (currentPage + 1) * projectsPerPage
   );
-
-  useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkIsMobile();
-    window.addEventListener("resize", checkIsMobile);
-    return () => window.removeEventListener("resize", checkIsMobile);
-  }, []);
 
   const handlePrevPage = () => {
     setCurrentPage((prev) => (prev > 0 ? prev - 1 : prev));
