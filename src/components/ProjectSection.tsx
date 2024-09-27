@@ -55,7 +55,7 @@ export const ProjectSectionLeft = ({
 
   return (
     <div className="w-full px-4 py-8 md:px-8 lg:px-16 xl:px-32 md:py-16">
-      <div className="flex flex-col md:grid md:grid-cols-3 gap-8">
+      <div className="flex flex-col md:grid md:grid-cols-3 gap-8 md:gap-0">
         <div
           ref={secRef}
           className="flex flex-col items-start md:items-center justify-center gap-8 text-white p-4 md:p-8 md:col-span-1 text-start"
@@ -164,7 +164,7 @@ export const ProjectSectionRight = ({
 
   return (
     <div className="w-full px-4 py-8 md:px-8 lg:px-16 xl:px-32 md:py-16">
-      <div className="flex flex-col-reverse md:grid md:grid-cols-3 gap-8">
+      <div className="flex flex-col-reverse md:grid md:grid-cols-3 gap-8 md:gap-0">
         <div className="md:col-span-2">
           <div className="flex flex-col sm:flex-row flex-wrap items-center md:justify-start gap-4 text-white">
             {currentProjects.map((p, index) => (
