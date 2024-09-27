@@ -8,6 +8,7 @@ import {
 import B from "../components/B";
 import AboutMe from "../components/AboutMe";
 import Landing from "../components/Landing";
+import ContactIcons from "../components/ContactIcons";
 
 type ProjectJSON = {
   web3: ProjectInfo[];
@@ -83,8 +84,8 @@ export default () => {
 
   return (
     <div className="w-full font-display">
+      <ContactIcons />
       <Landing goToAboutMe={goToAboutMe} goToWork={viewMyWork} />
-
       <AboutMe secRef={aboutMeRef} />
 
       {projects ? (
