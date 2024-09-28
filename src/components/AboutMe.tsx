@@ -13,7 +13,7 @@ const ProfileSection = ({ className }: ProfileSectionProps) => (
     <div className="group relative rounded-full flex justify-center items-center w-72 h-72">
       <img
         className="absolute brightness-75 w-72 h-72"
-        src="/assets/profile.png"
+        src="/portifolio/assets/profile.png"
       />
     </div>
   </div>

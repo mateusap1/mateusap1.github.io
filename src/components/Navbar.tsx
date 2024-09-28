@@ -16,11 +16,11 @@ export default ({ goToAboutMe }: NavbarProps) => (
         <button className="border border-offblue group-hover:bg-transparent bg-offblue px-2 py-2">
           <img
             className="rotate-90 group-hover:hidden"
-            src="assets/icons/doublearrow.svg"
+            src="/portifolio/assets/icons/doublearrow.svg"
           />
           <img
             className="hidden group-hover:inline rotate-90"
-            src="assets/icons/doublearrow_offblue.svg"
+            src="/portifolio/assets/icons/doublearrow_offblue.svg"
           />
         </button>
       </div>

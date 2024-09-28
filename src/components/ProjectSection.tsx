@@ -91,7 +91,7 @@ export const ProjectSectionLeft = ({
             >
               <img
                 className="w-6 md:w-8"
-                src="/assets/icons/arrow_back.svg"
+                src="/portifolio/assets/icons/arrow_back.svg"
                 alt="Previous"
               />
             </button>
@@ -106,7 +106,7 @@ export const ProjectSectionLeft = ({
             >
               <img
                 className="w-6 md:w-8"
-                src="/assets/icons/arrow_forward.svg"
+                src="/portifolio/assets/icons/arrow_forward.svg"
                 alt="Next"
               />
             </button>
@@ -182,7 +182,7 @@ export const ProjectSectionRight = ({
             >
               <img
                 className="w-6 md:w-8"
-                src="/assets/icons/arrow_back.svg"
+                src="/portifolio/assets/icons/arrow_back.svg"
                 alt="Previous"
               />
             </button>
@@ -197,7 +197,7 @@ export const ProjectSectionRight = ({
             >
               <img
                 className="w-6 md:w-8"
-                src="/assets/icons/arrow_forward.svg"
+                src="/portifolio/assets/icons/arrow_forward.svg"
                 alt="Next"
               />
             </button>

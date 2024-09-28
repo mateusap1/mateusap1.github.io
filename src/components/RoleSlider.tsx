@@ -9,9 +9,9 @@ import Presentation from "../components/Presentation";
 import B from "./B";
 
 const icons = [
-  "/assets/icons/web3page.svg",
-  "/assets/icons/aipage.svg",
-  "/assets/icons/softpage.svg",
+  "/portifolio/assets/icons/web3page.svg",
+  "/portifolio/assets/icons/aipage.svg",
+  "/portifolio/assets/icons/softpage.svg",
 ];
 
 type RoleSliderProps = {

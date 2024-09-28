@@ -26,7 +26,7 @@ export default ({
       }`}
     >
       <div className="px-8 pt-4 flex justify-between items-center">
-        <img className="w-8" src="assets/icons/folder.svg" />
+        <img className="w-8" src="/portifolio/assets/icons/folder.svg" />
 
         <span className="font-semibold text-offblue">{date}</span>
       </div>

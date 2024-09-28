@@ -66,7 +66,7 @@ export default () => {
 
   const loadProjects = async () => {
     try {
-      const response = await fetch("/data/projects.json");
+      const response = await fetch("/portifolio/data/projects.json");
       if (!response.ok) {
         return Promise.reject("Network response was not ok");
       }

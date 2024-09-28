@@ -3,9 +3,9 @@ import RoleSlider from "./RoleSlider";
 import Navbar from "./Navbar";
 
 const backgrounds = [
-  "/assets/bgweb3.jpg",
-  "/assets/bgai.jpg",
-  "/assets/bgsoft.jpg",
+  "/portifolio/assets/bgweb3.jpg",
+  "/portifolio/assets/bgai.jpg",
+  "/portifolio/assets/bgsoft.jpg",
 ];
 
 type LandingProps = {
