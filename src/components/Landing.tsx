@@ -30,8 +30,8 @@ export default ({ goToAboutMe, goToWork }: LandingProps) => {
     >
       <div className="absolute h-screen inset-0 bg-black opacity-60"></div>
       <Navbar goToAboutMe={goToAboutMe} />
-      <div className="absolute inset-0 flex items-center px-8 md:p-8 z-10">
-        <div className="w-full md:px-48">
+      <div className="absolute inset-0 flex items-center px-8 lg:p-8 z-10">
+        <div className="w-full lg:px-48 md:px-16">
           <div className="w-full flex flex-col gap-8 text-slate-200">
             <RoleSlider onViewMyWork={goToWork} onChange={changeBackground} />
           </div>
