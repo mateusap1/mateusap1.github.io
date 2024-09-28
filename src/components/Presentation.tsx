@@ -11,7 +11,7 @@ export default ({ title, description, onViewMyWork }: PresentationProps) => {
         Hi, my name is
       </span>
       <div className="w-full flex flex-col gap-4 md:gap-8">
-        <div className="w-full flex md:gap-4 flex-col text-3xl md:text-4xl lg:text-6xl font-semibold font-title text-stone-300">
+        <div className="w-full flex md:gap-4 flex-col text-4xl lg:text-6xl font-semibold font-title text-stone-300">
           <span className="">Mateus Santos.</span>
           <span className="opacity-60">{title}</span>
         </div>
