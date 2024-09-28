@@ -8,7 +8,7 @@ const ProfileSection = ({ className }: ProfileSectionProps) => (
   <div
     className={`${
       className || ""
-    } flex flex-wrap justify-center items-center gap-4 col-span-1 text-white p-8`}
+    } flex flex-wrap justify-center items-center gap-4 col-span-1 text-white md:p-8`}
   >
     <div className="group relative rounded-full flex justify-center items-center w-72 h-72">
       <img
