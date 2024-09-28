@@ -26,10 +26,10 @@ type AboutMeProps = {
 export default ({ secRef }: AboutMeProps) => (
   <div
     ref={secRef}
-    className="w-full p-8 md:p-16 lg:p-32 flex flex-col md:grid md:grid-cols-3 gap-8"
+    className="w-full p-8 md:p-16 lg:p-32 flex flex-col lg:grid lg:grid-cols-3 gap-8"
   >
-    <ProfileSection className="order-last md:order-first md:col-span-1" />
-    <div className="flex flex-col text-start items-start gap-8 md:col-span-2 text-white">
+    <ProfileSection className="order-last lg:order-first lg:col-span-1" />
+    <div className="flex flex-col text-start items-start gap-8 lg:col-span-2 text-white">
       <h2 className="font-title font-semibold text-4xl">About me.</h2>
       <div className="flex flex-col gap-4 opacity-60">
         <p>
